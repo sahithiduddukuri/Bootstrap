@@ -1,0 +1,66 @@
+/* style.css */
+html,body{
+    height:100%;
+    align-content: center;
+}
+img{
+    padding: top;
+    float: right;
+    max-width: 100%;
+    max-height: 100%;
+}
+#nav-main{
+    position: fixed;
+    top:0px;
+    width: 1800px;
+    z-index: 1;
+}
+.jumbotron{
+    background: rgba(25,0,0,0.5);
+    color: blue;
+}
+/* cover */
+#cover
+{
+    background: #222 url(dec7.jpg) center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.carousel
+{
+    padding-top:10px;
+}
+#cover-caption
+{
+    width: 100%;
+}
+.w{
+    color: blue;
+}
+h1{
+    color: green;
+}
+.about-text{
+    align-content: center;
+    background: rgba(0,0,0,0);
+    color:violet;
+    padding: 30px;
+}
+footer{
+    background:black;
+    position: fixed;
+    bottom: 0px;
+    width: 1900px;
+    height: 50px;
+}
+footer img{
+    float: left;
+    padding: 10px;
+    bottom:0;
+   
+}

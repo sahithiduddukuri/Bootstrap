@@ -1,0 +1,21 @@
+html,body
+{
+      height:80%;
+}
+  div,h1,p{
+    text-align: center;
+    
+}
+form{
+    margin-left: 660px;
+    text-align: center;
+    height: 500px;
+    width: 500px;
+}
+#cover{
+    background: #222 url(dec1.jpg) center center no-repeat;
+    height: 100%;
+}
+img{
+    max-width:100%;
+}
